@@ -1,7 +1,7 @@
 const express = require("express");
 const compression = require("compression");
-const apiRoutes = require("./routes/apiRoutes");
-const htmlRoutes = require("./routes/htmlRoutes");
+const apiRoutes = require("./Routes/apiRoutes");
+const htmlRoutes = require("./Routes/htmlRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
